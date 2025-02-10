@@ -54,13 +54,15 @@ export default function About() {
 
           <div className="flex gap-2">
           <a href="#"
-          className="bg-[#76B98C] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md font-semibold">
+          className="bg-[#76B98C] text-white flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md font-semibold" data-aos = "fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <WhatsappLogo className="w-5 h-5 text-white"/>
           Contato via WhatsApp
           </a>
 
           <a href="#"
-          className=" text-[#4A5E77] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md font-semibold">
+          className=" text-[#4A5E77] flex items-center justify-center w-fit gap-2 px-4 py-2 rounded-md font-semibold" data-aos = "fade-right" data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
           <MapPin className="w-5 h-5 text-[#4A5E77]"/>
           Endereço
           </a>

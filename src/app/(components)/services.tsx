@@ -102,17 +102,19 @@ export default function Services() {
                       </div>
                     </div>
 
-                    <div className="border-t border-slate-200 pt-4 flex items-center justify-between">
+                    <div className="border-t border-slate-200 pt-4 flex items-center justify-between"data-aos = "fade-right" data-aos-offset="300"
+                      data-aos-easing="ease-in-sine">
                       <div className="flex items-center gap-2 text-sm">
-                        <Clock className="w-4 h-4" />
+                        <Clock className="w-4 h-4"/>
                         <span>{item.duration}</span>
                       </div>
 
                       <a
                         href="#"
-                        className="flex items-center justify-center gap-2 hover:bg-[#76B98C] w-fit px-4 py-2 rounded-md transition-colors duration-300 ease-in-out"
+                        className="flex items-center justify-center gap-2 hover:bg-[#76B98C] w-fit px-4 py-2 rounded-md transition-colors duration-300 ease-in-out"data-aos = "fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine"
                       >
-                        <WhatsappLogo className="w-5 h-5" />
+                        <WhatsappLogo className="w-5 h-5"/>
                         Entrar em contato
                       </a>
                     </div>

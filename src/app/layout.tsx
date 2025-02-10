@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { ReactNode } from "react";
 import "./globals.css";
+import { AosInit } from "./(components)/aos-init";
 
 export const metadata: Metadata = {
   title: "MundoPet",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: LayoutProps) {
         />
       </head>
       <body className="font-lato antialiased">{children}</body>
+      <AosInit />
     </html>
   );
 }
