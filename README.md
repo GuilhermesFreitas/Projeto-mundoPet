@@ -1,11 +1,8 @@
 # Projeto Mundo Pet
 
-
 ## Descrição do Projeto
 
 O **Projeto Mundo Pet** é uma aplicação web desenvolvida para facilitar o agendamento de Serviços.
-
-## Status do Projeto
 
 
 ## Funcionalidades
